@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+
+<section class="weather_data_section">
+    <div class="input_data">
+        <input type="text" placeholder="enter any city name" required>
+        <button id="search_btn" type="button"><img src="./Assets/search.png" alt="search icon"></button>
+    </div>
+ 
+    
+    <div class="cards">
+        <div class="temp_div">
+            <h1>Temperature</h1>
+            <img src="./Assets/temp.png" alt="temperature image">
+            <h2 id="temp_data"></h2>
+        </div>
+        <div class="wind_div">
+            <h1>Wind Speed</h1>
+            <img src="./Assets/wind.png" alt="wind speed image">
+            <h2 id="wind_data"></h2>
+        </div>
+        <div class="humidity_div">
+            <h1>Humidity</h1>
+            <img src="./Assets/humidity.png" alt="humidity image">
+            <h2 id="humidity_data"></h2>
+        </div>
+    </div>
+
+    <div class="location_section">
+        <p class="location">SEARCHED LOCATION: </p>
+        <p  class="location_data" id="city_data"></p>
+    </div>
+
+</section>
+    <script src="./script/script.js"></script>
+</body>
+</html>
