@@ -7,7 +7,7 @@ Users can enter a city name to instantly view temperature, wind speed, and humid
 ---
 
 ## 🚀 Live Demo
-(Add deployed link here if available)
+https://majestic-alfajores-77b99d.netlify.app/
 
 ---
 
@@ -78,8 +78,6 @@ Data retrieved:
 git clone https://github.com/vattikundalaakhila/Weather-API.git
 
 2. Navigate into the folder:
-
-cd weather-app
 
 3. Open `index.html` in your browser.
 
